@@ -1,0 +1,41 @@
+.unused-media-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.unused-media-container {
+    margin-bottom: 20px;
+}
+
+.pagination,
+.action-buttons {
+    margin-top: 20px;
+}
+
+.action-buttons {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.select-all {
+    margin-bottom: 10px;
+}
+
+.select-all input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.unused-media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.unused-media-item img {
+    max-width: 100px;
+    max-height: 100px;
+}
